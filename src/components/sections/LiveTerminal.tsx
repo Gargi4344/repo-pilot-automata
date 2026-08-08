@@ -52,7 +52,7 @@ export function LiveTerminal() {
           </p>
         </div>
 
-        <Card ref={undefined} className="mt-14 overflow-hidden bg-background/90">
+        <Card className="mt-14 overflow-hidden bg-background/90">
           <div className="flex items-center gap-3 border-b border-border bg-surface/60 px-4 py-3">
             <div className="flex gap-1.5">
               <span className="h-2.5 w-2.5 rounded-full bg-muted" />
