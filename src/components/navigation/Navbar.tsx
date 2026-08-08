@@ -32,10 +32,8 @@ export function Navbar() {
       )}
     >
       <Container size="wide">
-        <nav
-          aria-label="Main"
-          className="grid h-16 grid-cols-[minmax(0,1fr)_auto] items-center gap-4 md:h-20"
-        >
+        <nav aria-label="Main" className="flex h-16 items-center justify-between gap-6 md:h-20">
+
           <a href="#top" className="flex min-w-0 items-center gap-2.5">
             <RepoPilotMark className="h-6 w-6 shrink-0 text-foreground" />
             <span className="truncate text-[1.05rem] font-semibold tracking-tight">RepoPilot</span>
