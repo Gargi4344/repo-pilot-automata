@@ -34,7 +34,7 @@ function Index() {
     <>
       <Navbar />
       <main>
-        <h1 className="sr-only">RepoPilot — autonomous AI software engineer for GitHub</h1>
+        
         <Hero />
         <LiveCommit />
         <AgentNetwork />
