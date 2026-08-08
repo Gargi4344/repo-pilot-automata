@@ -23,11 +23,12 @@ export function Hero() {
   return (
     <section id="top" className="relative overflow-hidden pt-28 pb-16 md:pt-36 md:pb-24">
       <div className="pointer-events-none absolute inset-0 grid-faint opacity-40" />
-      <div className="pointer-events-none absolute inset-x-0 top-10 h-[420px] opacity-70 md:opacity-100">
+      <div className="pointer-events-none absolute inset-x-0 top-16 h-[520px] opacity-45">
         <div className="hidden h-full w-full sm:block">
           <GitGraph />
         </div>
       </div>
+      <div className="pointer-events-none absolute inset-x-0 top-24 h-80 bg-[radial-gradient(ellipse_at_center,oklch(0.06_0_0/85%),transparent_72%)]" />
       <div className="pointer-events-none absolute inset-x-0 top-1/2 h-64 bg-[radial-gradient(ellipse_at_center,oklch(1_0_0/6%),transparent_70%)]" />
 
       <Container size="wide" className="relative">
